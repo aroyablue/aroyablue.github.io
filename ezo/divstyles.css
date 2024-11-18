@@ -5,30 +5,27 @@
 }
 
 
-.navbar {
-	margin-bottom: 20px; 
+.nav {
 	background-color: #517F7A;
 	dsiplay: flex;
 	padding: 70px;
-	text-align: right;
+	text-align: center;
+	align-items: center;
+	justify-content: space-between;
 }
-
-.navbar ul {
-	list-style-type: none; 
+.logo img {
+	height: 20px;
 }
-
-.navbar li {
-	display: inline; 
-	margin: 30px;
-	text-align: right;
+.nav-links {
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
 }
-
-.navbar a {
-	color: white; 
-	text-decoration: none; 
-	font-size: 30px; 
+nav-links a {
+	color: #000;
+	text-decoration: none;
 }
-
 
 .introduction {
 	text-align: left;
