@@ -26,6 +26,8 @@
 nav-links a {
 	color: #000;
 	text-decoration: none;
+	font-size: 1rem;
+	text-transform: uppercase;
 }
 
 .introduction {
