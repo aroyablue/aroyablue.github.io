@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+p {
+	color: #0088ff;
+}
+
+.music {
+	background-color: #000000;
+	display: inline;
+	padding: 10px;
+	width: 1400px;
+	border-radius: 15px;
+
+}
+
+.banner {
+	display: inline;
+}
+.banner ul {
+	list-style-type: none;
+}
+.banner li {
+	font-size: 40px;
+	padding-top: 110px;
+	padding-left: 25px;
+	color: white;
+}
+
+
+.stats {
+	display: inline;
+}
+.stats ul {
+	 list-style-type: none;
+}
+.stats li {
+	font-size: 20px;
+	color: white;
+	padding-top: 20px;
+}
+
+
+.large-button {
+	display: inline;
+	width: 200px;
+	height: 50px;
+	font-size: 30px;
+	border-radius: 20px;
+	border: 1px #5716c7;
+	background-color: #5716c7;
+	color: #ffffff;
+	margin-right: 30px; 
+}
+.profile-pic {
+	background-color: #3b3b3b;
+}
+.profile-pic img {
+	border-radius: 10px;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+.profile {
+	color: #ffffff;
+	font-size: 24px;
+	display: inline;
+	margin-bottom: 20px;
+}
+
+
+
+.subject-matter {
+	background-color: #3b3b3b;
+}
+
+.info {
+	text-align: left;
+	margin-left: 45px;
+	margin-right:45px;
+	margin-bottom: 10px;
+	max-width: 900px; 
+	color:white;
+	
+}
+
+
+.single-image {
+	background-color: #3b3b3b;
+	margin-bottom: 40px;
+}
+
+.single-image img {
+	align-content: center; 
+	width: 900px;
+	height: auto;
+	margin-left: 45px;
+	margin-right: 45px;
+}
+
+.multi-image {
+	background-color: #3b3b3b;
+	margin-bottom: 20px;
+	display: inline;
+}
+.multi-image img {
+	align-content: center;
+	width: 430px;
+	height: auto;
+	margin-left: 45px;
+	margin-right: 45px;
+	margin-bottom: 20px;
+}
+
+.tags {
+	margin-left: 45px;
+	margin-right: 45px;
+	margin-bottom: 25px;
+	color: grey;
+	font-size: 28px;
+	background-color: #3b3b3b;
+	padding-bottom: 20px;
+}
+
+.ending {
+	background-color:#3b3b3b;
+	display: right;
+}
+
+
+.small-button {
+	display: inline;
+	margin: 45px;
+	width: 150px;
+	height: 40px;
+	font-size: 20px;
+	border-radius: 90px;
+	border: 1 px #ABABAB;
+	background-color: #3b3b3b;
+	color: grey;
+}
+
+.space {
+	background-color: 5716c7;
+	height: 10px;
+}

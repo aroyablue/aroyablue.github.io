@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HOMEPAGE</title>
+<link rel="stylesheet" type="text/css" href="divstyles.css">
+<style>
+	body {
+		font-family: Arial;
+		color: white;
+		background-color: #696969;
+	}
+
+		
+</style>
+    <style>
+        /* Set up the animation for the background */
+        @keyframes colorChange {
+            0% {
+                background-color: #fc031c; 
+            }
+            25% {
+                background-color: #bd8804; 
+            }
+            50% {
+                background-color: #118a06; 
+            }
+            75% {
+                background-color: #0548ad; 
+            }
+            85% {
+                background-color: #7205ad; 
+            }
+
+            100% {
+                background-color: #fc031c; 
+            }
+        }
+
+        
+        body {
+            animation: colorChange 10s infinite; /* 10 seconds, infinite loop */
+            margin: 0;
+            height: 100vh; /* Full viewport height */
+            color: white; /* Text color to be visible on the background */
+            font-family: Arial, sans-serif;
+            font-size: 2em;
+        }
+    </style>
+
+
+</head>
+<body>
+<div class="loading-screen">
+	<div class="spinner"></div>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
