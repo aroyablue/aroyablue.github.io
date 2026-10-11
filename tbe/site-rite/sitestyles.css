@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.logo { 
+	position: relative; 
+	display: inline-block; 
+} 
+.logo img { 
+	width: 150px; 
+	height: auto; 
+	display: block; 
+	padding-left: 10px;
+	padding-top: 10px;
+} 
+
+h1 {
+	font-family: "Anton";
+	font-size: 75px;
+	color: #395194;
+}
+h3 {
+	font-family: "Quicksand";
+	font-size: 22px;
+	font-weight: bold;
+	color: #80A4D4;
+}
+p {
+	font-family: "Quicksand";
+	font-size: 18px;
+	color: #181A21;
+}
+
+
+.prologue {
+	max-width: 900px;
+	background-color: #F7F7EF;
+	padding: 30px;
+	border-radius: 40px;
+	font-family: "Quicksand";
+	font-size: 24px;
+	text-align: left;
+}
+.play {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: #395194;
+	border-radius: 20px;
+	border: none;
+	font-family: "Quicksand";
+	font-weight: bold;
+	font-size: 30px;
+	color: #F7F7EF;
+}
+.play:hover {
+	background-color: #FFD572;
+}
+.play a {
+	text-decoration: none;
+}
+
+
+.three-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 70%;
+  justify-content: center;
+}
+.column {
+  padding: 10px;
+  max-width: 500px;
+}
+.column a {
+	text-decoration: none;
+}
+.option {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #395194;
+	border-radius: 20px;
+	border: none;
+	font-family: "Quicksand";
+	font-weight: bold;
+	font-size: 20px;
+	color: #F7F7EF;
+}
+.option:hover {
+	background-color: #80A4D4;
+}
+.option a {
+	text-decoration: none;
+}
+
+
+.split-section { 
+	display: grid; 
+	grid-template-columns: 1fr 1fr; 
+	min-height: 10px; 
+	max-width: 800px;
+} 
+.text-side {
+	padding-right: 70px; 
+	display: inline; 
+	flex-direction: column; 
+	justify-content: center; 
+	text-align: left;
+}
+.code-side {
+	padding-left: 70px; 
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center; 
+	text-align: left;
+}
+
+.explanation {
+	max-width: 1000px;
+	background-color: #F7F7EF;
+	padding: 20px;
+	border-radius: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
